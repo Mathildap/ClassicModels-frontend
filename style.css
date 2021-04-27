@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+/* - - - - - HEADER - - - - - */
+h1 {
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+li {
+    list-style: none;
+    margin: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/* - - - - - START - - - - - */
+#startContainer {
+    display: flex;
+    height: 90vh;
+    margin: 5%;
+}
+#textContainer {
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    align-self: center;
+    font-size: 22px;
+}
+#imgContainer {
+    width: 40%;
+    background-image: url('/car.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* - - - - - PRODUCTS - - - - - */
+#categoriesContainer, #officesContainer {
+    display: flex;
+    margin: 15px;
+}
+#categories, #offices {
+    width: 25%;
+    margin: 30px;
+    border-right: 1px solid black;
+    line-height: 2;
+}
+#productsBox, #employeesBox {
+    width: 70%;
+    margin: 30px;
+}
+.office {
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+    padding: 10px 0px;
+}
